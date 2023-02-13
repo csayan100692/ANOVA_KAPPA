@@ -3,7 +3,7 @@ p=3;
 H=500;
 n=size(x,1);
 inner_loop_statistic_value_array=zeros(1,H);
-gamma_0=(5*kappa_0^3)/(5*kappa_0^2-1);
+%gamma_0=(5*kappa_0^3)/(5*kappa_0^2-1);
     y=[sum(x(:,1)) sum(x(:,2)) sum(x(:,3))];
     
     r_bar=sqrt(sum(y.^2))/n;
